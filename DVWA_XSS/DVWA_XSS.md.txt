@@ -1,0 +1,38 @@
+# 🛡️ DVWA - XSS (Cross-Site Scripting)
+
+## ✅ What is XSS?
+Cross-Site Scripting (XSS) is a web vulnerability that allows an attacker to inject malicious JavaScript into a webpage. When executed by another user, it can steal cookies, sessions, or redirect users.
+
+---
+
+## 💣 Impact
+- Steal session cookies
+- Redirect users to malicious sites
+- Deface web pages
+- Capture keystrokes (keyloggers)
+
+---
+
+## 🧪 Tools Used
+- DVWA (Security Level: Low)
+- Web Browser (Chrome or Firefox)
+- XAMPP (Apache + MySQL)
+
+---
+
+## 🕵️‍♂️ Steps to Exploit Reflected XSS
+
+1. Open DVWA in browser:  
+   `http://localhost/dvwa`
+
+2. Login with:
+   - Username: `admin`  
+   - Password: `password`
+
+3. Go to `DVWA Security` and set security level to `Low`
+
+4. Navigate to `XSS (Reflected)` module
+
+5. Enter this payload:
+   ```html
+   <script>alert('XSS Working!')</script>
