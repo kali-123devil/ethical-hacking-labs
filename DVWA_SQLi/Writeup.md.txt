@@ -1,0 +1,27 @@
+# 🛡️ DVWA - SQL Injection (Admin Login Bypass)
+
+## ✅ What is SQL Injection?
+SQL Injection allows attackers to inject malicious SQL queries into input fields, bypassing authentication or extracting data.
+
+---
+
+## 💣 Impact
+- Bypass login
+- Expose database info
+- Full DB control in advanced cases
+
+---
+
+## 🧪 Tools Used
+- DVWA (Security Level: Low)
+- Browser (Firefox/Chrome)
+- XAMPP (MySQL + Apache)
+
+---
+
+## 🕵️‍♂️ Steps
+
+1. Open: `http://localhost/dvwa`
+2. Go to `DVWA Security`, set level to **Low**
+3. Click on `SQL Injection`
+4. In the input field, enter:
